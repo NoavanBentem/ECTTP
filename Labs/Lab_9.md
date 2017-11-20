@@ -29,7 +29,7 @@ Hint: Create a double for-loop in the draw of the main tab, one for the balls an
 
 Make a third class called Score and instantiate exactly one object of this class. 
 The score class keeps score for both players (think of which attributes and methods this class will need).  
-Create a Score object and make sure that if a ball hits a Red Blocker, Player 1 gets a point and if a ball hits a Blue Blocker, Player 2 gets a point.
+Create a Score object and make sure that if the red ball hits a Blocker, Player 1 gets a point and if the blue ball hits a Blocker, Player 2 gets a point.
 Show the scores on screen.
 Hint: To add a score, add an extra parameter to the collide-function the blocker class and give the score object to the function. From within the collide function, it is now possible to add a score to the score object if there is a collision.
 
